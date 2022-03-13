@@ -41,7 +41,7 @@ namespace ASE_Applcation
         ~Shape()
         {
             pen.Dispose();
-            brush.Dispose();Class1.cs
+            brush.Dispose();
         }
 
         /// <summary>
