@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ASE_Applcation
 {
+    /// <summary>
+    /// Class for rectangle that implements shape
+    /// </summary>
     public class Rectangle : Shape
     {
         (int, int) position;

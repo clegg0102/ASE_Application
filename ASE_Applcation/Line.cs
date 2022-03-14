@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ASE_Applcation
 {
+    /// <summary>
+    /// Class for line that implements shape
+    /// </summary>
     internal class Line : Shape
     {
         protected int startX, startY, endX, endY;
@@ -18,7 +21,7 @@ namespace ASE_Applcation
         /// <param name="startX">the x coordinate for the start of the line</param>
         /// <param name="startY">the y coordinate for the start of the line</param>
         /// <param name="penWidth">the width of the line</param>
-        /// <param name="fillState">not actually used for this shape since it's a line and can't be filled</param>
+        /// <param name="fillState">not used for this shape since it's a lined</param>
         /// <param name="endX">the x coordintae for the end of the line</param>
         /// <param name="endY">the y coordintae for the end of the line</param>
         public Line(Color colour, int startX, int startY, float penWidth, bool fillState, int endX, int endY)

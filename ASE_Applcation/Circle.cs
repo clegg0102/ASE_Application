@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ASE_Applcation
 {
+    /// <summary>
+    /// Class for circle that implements shape
+    /// </summary>
     public class Circle : Shape
     {
         protected int radius;
