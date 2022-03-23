@@ -48,10 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circle.cs" />
+    <Compile Include="CommandParser.cs" />
+    <Compile Include="Drawer.cs" />
+    <Compile Include="ExpressionHandler.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="Polygon.cs" />
     <Compile Include="Rectangle.cs" />
+    <Compile Include="Scope.cs" />
     <Compile Include="Shape.cs" />
+    <Compile Include="ShapeFactory.cs" />
     <Compile Include="Triangle.cs" />
     <Compile Include="Window.cs">
       <SubType>Form</SubType>

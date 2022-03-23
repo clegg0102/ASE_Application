@@ -61,5 +61,10 @@ namespace ASE_Applcation
         {
             return pen.Width;
         }
+
+        internal void flashRunner()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
