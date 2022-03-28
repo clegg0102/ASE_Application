@@ -62,7 +62,7 @@ namespace ASE_Applcation
         /// This is done because the Context class needs a copy of the scope</param>
         /// <param name="head">the number of the first line of the while loop containingthe condition</param>
         /// <param name="condition">a copy of the while loops condition</param>
-        /// <param name="context">ExpressionHandler instance used for evaluating the condition.
+        /// <param name="expressionHandler">ExpressionHandler instance used for evaluating the condition.
         /// Needs to be from the same scope as the while loop.</param>
         public WhileLoop(Scope scope, int head, string condition, ExpressionHandler expressionHandler)
         {

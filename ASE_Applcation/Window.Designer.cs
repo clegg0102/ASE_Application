@@ -60,6 +60,7 @@
             this.CommandLine.Name = "CommandLine";
             this.CommandLine.Size = new System.Drawing.Size(319, 20);
             this.CommandLine.TabIndex = 4;
+            this.CommandLine.KeyDown += new System.Windows.Forms.KeyEventHandler(this.input_KeyDown);
 
             // 
             // ExecuteCommand
@@ -70,6 +71,7 @@
             this.ExecuteCommand.TabIndex = 3;
             this.ExecuteCommand.Text = "Execute";
             this.ExecuteCommand.UseVisualStyleBackColor = true;
+            this.ExecuteCommand.Click += new System.EventHandler(this.execute);
             // 
             // ExecuteScript
             // 
@@ -79,6 +81,7 @@
             this.ExecuteScript.TabIndex = 2;
             this.ExecuteScript.Text = "Execute Script";
             this.ExecuteScript.UseVisualStyleBackColor = true;
+            this.ExecuteScript.Click += new System.EventHandler(this.execute_script);
             // 
             // Window
             // 

@@ -15,7 +15,6 @@ namespace ASE_Applcation
         void Clear();
         void AddShape(Shape shape);
         void Update();
-        void Flash();
     }
 
     /// <summary>
@@ -76,23 +75,6 @@ namespace ASE_Applcation
             }
             return bitmap;
         }
-        /// <summary>
-        /// Makes Shapes Flash
-        /// </summary>
-        public void Flash()
-        {
-            // call the method on each shape that makes them flash
-            foreach (Shape shape in shapes)
-            {
-                shape.flashRunner();
-            }
-            // update and redraw the drawing area by calling the update function.
-            Update();
         }
-
-        internal void clear()
-        {
-            throw new NotImplementedException();
-        }
-    }
 }
+

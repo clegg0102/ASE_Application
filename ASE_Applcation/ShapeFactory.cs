@@ -240,19 +240,7 @@ namespace ASE_Applcation
             }
         }
 
-        /// <summary>
-        /// Method to set the colours to flashing.
-        /// </summary>
-        /// <param name="firstColor">Colour for the first half of the flash</param>
-        /// <param name="secondColor">Colour for the second half of the flash</param>
 
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="command"></param>
-        /// <param name="words"></param>
-        /// <returns></returns>
         public Shape parseShape(string command, string[] words)
         {
             switch (words[0].ToLower())
